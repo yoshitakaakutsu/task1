@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff00ff;
+  width: 100%;
+  height: 140px;
+}
+
+.header-item {
+  display: flex;
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+  padding: 30px 20px;
+}

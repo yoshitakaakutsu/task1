@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-list {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.list-item {
+  list-style: none;
+  padding: 0 20px;
+  display: inline-block;
+}
+
+.main-box {
+  margin: 50px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
