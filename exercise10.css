@@ -74,15 +74,19 @@ footer {
 
   main {
     display: block;
-    width: 90%;
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 100%;
   }
 
   .step-box {
     width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+  }
+
+  .step-box:last-child {
+    width: 90%;
+    margin: 20px auto;
   }
 
   footer {
